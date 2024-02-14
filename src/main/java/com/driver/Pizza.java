@@ -57,7 +57,7 @@ private boolean addExtraCheese=false;
 
     public String getBill(){
         // your code goes here
-this.bill+=price;
+this.bill+="Total Price: "+this.price;
         return this.bill;
     }
 }
