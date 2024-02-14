@@ -12,6 +12,7 @@ private boolean addExtraCheese=false;
         this.isVeg = isVeg;
         // your code goes here
         price=(isVeg)?300:400;
+        this.bill+="Base Price Of The Pizza: "+this.price+"\n";
     }
 
     public int getPrice(){
